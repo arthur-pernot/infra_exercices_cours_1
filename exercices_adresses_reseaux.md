@@ -1,8 +1,5 @@
 # Exercices – Réseaux, masques et adresses IP
 
-> Objectif : vérifier la compréhension des notions de **réseau**, **masque de sous-réseau**, **adresse réseau**, **adresse de broadcast** et **adresses assignables**.
-> Niveau : débutant → intermédiaire (cours d’infrastructure réseau).
-
 ---
 
 ## Exercice 1 – Même réseau ou non ?
@@ -136,9 +133,3 @@ Adresses IP :
 1. Combien de réseaux différents y a-t-il ?
 2. Quelles adresses sont dans le même réseau ?
 3. Quelles adresses sont des adresses réseau ou broadcast ?
-
----
-
-> Astuce méthodologique :
-> Toujours commencer par identifier **le pas du masque**, puis déterminer
-> **réseau → hôtes → broadcast** avant de comparer les IP.
