@@ -88,10 +88,10 @@ Masque : **255.255.255.0**
 
 Quelle affirmation est correcte ?
 
-A. 192.168.1.255 est une adresse assignable
-B. 192.168.1.0 est une adresse réseau
-C. 192.168.1.1 est une adresse de broadcast
-D. 192.168.1.254 est une adresse réseau
+- A. 192.168.1.255 est une adresse assignable
+- B. 192.168.1.0 est une adresse réseau
+- C. 192.168.1.1 est une adresse de broadcast
+- D. 192.168.1.254 est une adresse réseau
 
 ---
 
