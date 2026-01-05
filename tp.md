@@ -12,6 +12,11 @@
 - Comprendre le rôle de la passerelle par défaut
 
 ---
+# Instalation de Cisco Packet Tracker
+[tuto](https://openclassrooms.com/fr/courses/6944606-concevez-votre-reseau-tcp-ip/7235342-decouvrez-l-outil-de-simulation-packet-tracer)
+
+
+---
 
 # PARTIE 1 — Mise en place d’un premier réseau local (LAN)
 
