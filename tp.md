@@ -13,18 +13,6 @@
 
 ---
 
-## Contexte général
-
-Vous êtes technicien réseau junior dans une petite entreprise.
-
-L’entreprise possède :
-- un premier bureau avec plusieurs postes informatiques
-- un second bureau dans un autre bâtiment
-
-Chaque bureau a son **réseau local**, mais les deux réseaux doivent pouvoir communiquer entre eux.
-
----
-
 # PARTIE 1 — Mise en place d’un premier réseau local (LAN)
 
 ## 1. Topologie à réaliser
