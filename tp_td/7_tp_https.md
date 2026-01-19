@@ -1,41 +1,5 @@
 # TP HTTP vs HTTPS dans Cisco Packet Tracer
 
-## Objectifs pédagogiques
-
-À l’issue de ce TP, l’étudiant devra être capable de :
-
-- Mettre en place un **serveur Web** accessible en **HTTP (port 80)** et en **HTTPS (port 443)**
-- Comprendre la différence entre **connexion TCP** et **sécurisation TLS**
-- Observer, en mode Simulation, les éléments suivants :
-  - Résolution **DNS**
-  - Établissement TCP (SYN / SYN-ACK / ACK)
-  - Échanges HTTP (lisibles) vs HTTPS (non lisibles)
-  - Différence de ports 80 vs 443
-- Expliquer le rôle des **certificats** dans l’authentification du serveur (selon possibilités Packet Tracer)
-
-> Remarque : Packet Tracer simule certains aspects de TLS/HTTPS de manière simplifiée. L’objectif est l’**intuition réseau** : ports, flux, encapsulation, et différence “en clair vs chiffré”.
-
----
-
-## Durée et organisation (2h)
-
-- Travail en binômes
-- Livrables :
-  1. Capture d’écran de la topologie
-  2. Tableau d’adressage complété
-  3. 5 captures “Simulation” (DNS, TCP 80, HTTP, TCP 443, HTTPS)
-  4. Réponses aux questions
-
-### Découpage conseillé
-- Partie A (20 min) : Topologie + plan d’adressage
-- Partie B (20 min) : Configuration IP + tests de base
-- Partie C (20 min) : DNS + accès HTTP
-- Partie D (30 min) : Activation HTTPS + tests
-- Partie E (20 min) : Analyse en Simulation (HTTP vs HTTPS)
-- Partie F (10 min) : Questions de synthèse
-
----
-
 ## Matériel Packet Tracer
 
 Équipements à utiliser :
