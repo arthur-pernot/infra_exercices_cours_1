@@ -76,12 +76,12 @@ q = 11
 
 Formule :
 \[
-n = p \times q
+n = p x q
 \]
 
 Exemple :
 \[
-n = 3 \times 11 = 33
+n = 3 x 11 = 33
 \]
 
 ### Rôle de \( n \)
@@ -101,7 +101,7 @@ phi(n) = (p - 1)(q - 1)
 
 Exemple :
 \[
-phi(33) = (3 - 1)(11 - 1) = 2 \times 10 = 20
+phi(33) = (3 - 1)(11 - 1) = 2 x 10 = 20
 \]
 
 ### Rôle de \( phi(n) \)
@@ -162,7 +162,7 @@ pour des raisons de performance et de sécurité.
 
 Formellement :
 \[
-d \times e \equiv 1 \ (\text{mod } phi(n))
+d x e \equiv 1 \ (\text{mod } phi(n))
 \]
 
 ### Exemple
@@ -174,7 +174,7 @@ On cherche \( d \) tel que :
 
 Essais :
 
-| \( d \) | \( 3 \times d \) | mod 20 |
+| \( d \) | \( 3 x d \) | mod 20 |
 |------|---------------|--------|
 | 1 | 3 | 3 |
 | 3 | 9 | 9 |
@@ -211,7 +211,7 @@ Propriété mathématique fondamentale :
 Cette propriété est garantie par :
 - le choix de \( e \) et \( d \)
 - les propriétés de l’indicatrice d’Euler
-- la factorisation \( n = p \times q \)
+- la factorisation \( n = p x q \)
 
 ---
 
