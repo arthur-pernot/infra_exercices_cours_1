@@ -43,12 +43,12 @@ Formules utilisées :
 
 - **Chiffrement** :
 \[
-C = M^e \mod n
+C = M^e % n
 \]
 
 - **Déchiffrement** :
 \[
-M = C^d \mod n
+M = C^d % n
 \]
 
 ---
@@ -116,6 +116,8 @@ phi(33) = (3 - 1)(11 - 1) = 2 x 10 = 20
 
 ### Contraintes sur \( e \)
 
+**gcd = Greatest Common Diviseur**
+
 \( e \) doit vérifier :
 
 1. \( 1 < e < phi(n) \)
@@ -162,14 +164,14 @@ pour des raisons de performance et de sécurité.
 
 Formellement :
 \[
-d x e \equiv 1 \ (\text{mod } phi(n))
+d x e === 1 \ ({mod } phi(n))
 \]
 
 ### Exemple
 
 On cherche \( d \) tel que :
 \[
-3d \equiv 1 \ (\text{mod } 20)
+3d === 1 \ ({mod } 20)
 \]
 
 Essais :
@@ -205,7 +207,7 @@ d = 7
 
 Propriété mathématique fondamentale :
 \[
-(M^e)^d \equiv M \ (\text{mod } n)
+(M^e)^d === M \ ({mod } n)
 \]
 
 Cette propriété est garantie par :
